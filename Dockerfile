@@ -9,7 +9,7 @@ COPY ./src /code/src
 COPY ./alembic.ini /code/alembic.ini
 COPY ./migrations /code/migrations
 
-#RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt
+RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt
 
 
 

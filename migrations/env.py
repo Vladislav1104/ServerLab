@@ -21,6 +21,7 @@ if config.config_file_name is not None:
 # from myapp import mymodel
 # target_metadata = mymodel.Base.metadata
 config.set_main_option('sqlalchemy.url', environ.get('DATABASE_URL'))
+
 target_metadata = Base.metadata
 
 # other values from the config, defined by the needs of env.py,

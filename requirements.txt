@@ -1,6 +1,5 @@
 alembic==1.9.0
 anyio==3.6.2
-Brlapi==0.8.2
 chardet==4.0.0
 chrome-gnome-shell==0.0.0
 click==8.1.3
